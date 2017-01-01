@@ -4,7 +4,7 @@ namespace Saxulum\Translation\Silex\Provider;
 
 use Saxulum\Translation\Provider\TranslationProvider as BaseTranslationProvider;
 use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\ServiceProviderInterface;
 
 class TranslationProvider implements ServiceProviderInterface
 {
